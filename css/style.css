@@ -1,0 +1,391 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+   
+}
+.bg{
+    background: url("../image/cofeShop.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+    position: relative;
+     overflow: hidden;
+}
+.bg-dark {
+    background-color: rgba(0,0,0,0.3)!important;
+    height: 15%;
+}
+div.row{
+    width: 100%;
+}
+a.nav-link{
+    font-weight: bold;
+    margin: 20px;
+    font-size: 18px;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #f5d76e;
+    transition-duration: 0.5s;
+    -webkit-transition-duration:0.5s;
+}
+.titlesection{
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 32px;
+    text-align: center;
+    padding: 0px 0 50px 0;
+    font-weight: bold;
+}
+.content , .content .row{
+    height: 600px;
+    padding-left: 60px;
+    color: #fff;
+}
+.content h1
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f5d76e;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 30px;
+}
+.content .btn-light{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background:transparent;
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    text-transform: uppercase;
+   
+}
+.content .btn:hover{
+    background: #f6d252;
+    color: #000;
+    transition-duration: 0.5s;
+    -webkit-transition-duration:0.5s;
+    }
+
+.coffe{
+    width: 100%;
+    text-align: center;
+    color: #2f2f2f;
+    margin: 100px 0 100px 0;
+}
+
+.coffe .coffe-title{
+    font-size: 32px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.coffe .coffe-title span{
+    border-bottom: 2px solid #2f2f2f;
+}
+.coffe .coffe-desc
+{
+    font-size: 16px;
+    color: #28211f;
+    line-height: 1.5;
+    margin-bottom: 80px;
+}
+.coffe-icon {
+    width: 72px;
+}
+.menu .menuimg{
+    width: 80%;
+    margin-bottom: 30px;
+}
+.menu .listcoffe ul li{
+   list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    padding: 3px;
+    letter-spacing: -1px;
+}
+.menu div{
+    float: left;
+    font-size: 0;
+    position: relative;
+}
+.menu div .menuimg{
+    width: 100%;
+}
+.menu div .overlay{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 12px;
+    right: 0;
+    background: rgb(227, 231, 235,0.5);
+    opacity: 0;
+}
+.menu div .overlay span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.menu div.hover:hover .overlay{
+    opacity: 1;
+}
+
+.menu div .overlay1{
+    background: rgb(243, 218, 205,0.5);
+}
+.menu div .overlay2{
+    background: rgb(240, 202, 65,0.5);
+}
+.seefullmenu{
+    margin: 60px 0;
+   height: 50px;
+    width: 100%;
+    padding-left: 0;
+}
+.seefullmenu a.btn.btn.btn-light{
+    color: #000;
+    border: 1px solid #000;
+} 
+.seefullmenu a.btn.btn.btn-light:hover{
+    border: 1px solid #fff;
+    transition-duration: 0.8s;
+    -webkit-transition-duration:0.8s;
+}
+.testimoials{
+    margin-bottom: 80px;
+}
+.testimonialsbg{
+    height: 500px; 
+    background: url("../image/Testimonials.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.slidcontent{
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.slidcontent h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #f5d76e;
+    padding: 10px;
+}
+.slidcontent p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+.slideimg{
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -40px;
+}
+.carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+
+.location{
+    margin-bottom: 20px;
+}
+.locationbg{
+    height: 500px; 
+    background:url("../image/map.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+.locationaddres{
+    height: 99%;
+    width: 34%;
+    background: #f5d76e;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    overflow: hidden;
+    padding: 75px 0 0 80px;
+    
+}
+.locationaddres h3{
+    font-size: 20px;
+    font-weight:bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.locationaddres p{
+    font-size: 16px;
+    font-weight:600;
+}
+.locationaddres span{
+    padding-left: 30px;
+    font-weight: normal;
+}
+
+.footer{
+     height: 400px; 
+    background:#39312f;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+.footercontent{
+    text-align: center;
+    padding-top: 8%;
+}
+.fab{
+    color: #fff;
+    padding: 20px;
+    
+}
+.fab:hover{
+    color: #f5d76e;
+}
+.footercontent p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+.footercontent .copyright{
+    font-size: 14px;
+    color: #f5d76e;
+    font-weight: normal;
+}
+.footercontent .design{
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:992px){
+    .navbar-brand img{
+        display: none;
+    }
+    .navbar-collapse.collapse.show{
+        background: rgba(0,0,0,.8);
+        z-index: 10
+    } 
+    .content h1{
+        font-size: 3em;
+        margin-bottom: 10px;
+        padding-top: 111px;
+    }
+    .content p {
+    font-size: 14px;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+    .content, .content .row {
+    padding-left: 30px;
+    }
+    .bg{
+        height: 500px;
+    }
+    .content .btn-light{
+        font-size: 15px;
+        padding: 13px 10px;
+    }
+    .coffe .coffe-title{
+        font-size: 20px;
+        padding-bottom: 15px;
+        letter-spacing: 0px;
+    }
+    .coffe .coffe-desc{
+        font-size: 11px;
+        margin-bottom: 0px;
+    }
+    .coffe-icon{
+        width: 50px;
+        margin-top: 30px;
+    }
+    .titlesection{
+        font-size: 20px;
+    }
+    .menu div{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .coffe{
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+    .slidcontent{
+        left: 50%;
+    }
+    .testimonialimg{
+        display: none;
+    }
+    .locationaddres{
+        width: 40%;
+        padding: 40px 0 0 20px;
+    }
+    .locationaddres h3{
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    
+    .locationaddres p{
+        font-size: 12px;
+    }
+    
+    .fab {
+    padding: 15px;
+    font-size: 30px;
+    padding-top: 50px;
+    }
+    .footercontent p{
+        font-size: 12px;
+    }
+    .footercontent .copyright{
+        font-size: 12px;
+    }
+    .footercontent .design{
+        font-size: 10px;
+    }
+    .footer{
+        height: 300px;
+    }
+}
+
+
+
+
+
+
+
