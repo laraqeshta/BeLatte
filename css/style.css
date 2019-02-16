@@ -24,6 +24,9 @@ a.nav-link{
     margin: 20px;
     font-size: 18px;
 }
+.navbar-brand .logo {
+    display: none
+}
 .navbar-dark .navbar-nav .nav-link:hover{
     color: #f5d76e;
     transition-duration: 0.5s;
@@ -289,11 +292,9 @@ a.nav-link{
 
 
 
-
-
 @media(max-width:992px){
     .navbar-brand img{
-        display: none;
+        width: 80%;
     }
     .navbar-collapse.collapse.show{
         background: rgba(0,0,0,.8);
@@ -348,7 +349,7 @@ a.nav-link{
         left: 50%;
     }
     .testimonialimg{
-        display: none;
+      width: 80%;
     }
     .locationaddres{
         width: 40%;
@@ -381,8 +382,11 @@ a.nav-link{
     .footer{
         height: 300px;
     }
+.navbar-brand .logo {
+    display: inline-block;
+    width: 60%;
+    }
 }
-
 
 
 
