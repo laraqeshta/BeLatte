@@ -290,8 +290,6 @@ a.nav-link{
 
 
 
-
-
 @media(max-width:992px){
     .navbar-brand img{
         width: 80%;
@@ -350,6 +348,7 @@ a.nav-link{
     }
     .testimonialimg{
       width: 80%;
+        display: none;
     }
     .locationaddres{
         width: 40%;
@@ -384,7 +383,7 @@ a.nav-link{
     }
 .navbar-brand .logo {
     display: inline-block;
-    width: 60%;
+    width: 45%;
     }
 }
 
